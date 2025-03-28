@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1334405039 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\affile.cpp
+	"jaguarleap/affile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334405017 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\affile.h
+	<vector>
+	<string>
+	"jaguarleap/shared/animation.h"
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\animation.h
+	<vector>
+	<string>
+	"jaguarleap/shared/sprite.h"
+
+1334533942 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\sprite.h
+	<cinttypes>
+	"jaguarleap/shared/palette.h"
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fileops\parser.h
+	<cinttypes>
+	<string>
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fileops\writer.h
+	<cinttypes>
+	<string>
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\parserexception.h
+	<string>
+
+1334533586 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\bkfile.cpp
+	"jaguarleap/bkfile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334533494 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\bkfile.h
+	<string>
+	<vector>
+	"jaguarleap/shared/animation.h"
+	"jaguarleap/shared/palette.h"
+
+1334079919 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fileops\parser.cpp
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/shared/parserexception.h"
+	<fstream>
+	<sstream>
+
+1334079919 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fileops\writer.cpp
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+	<fstream>
+	<iostream>
+
+1334079919 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fontfile.cpp
+	"jaguarleap/fontfile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fontfile.h
+	<string>
+
+1334079919 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\languagefile.cpp
+	"jaguarleap/languagefile.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/shared/parserexception.h"
+	<list>
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\languagefile.h
+	<string>
+	<vector>
+
+1334405085 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\shared\animation.cpp
+	"jaguarleap/shared/animation.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+
+1334533183 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\shared\sprite.cpp
+	"jaguarleap/shared/sprite.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334079919 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\soundfile.cpp
+	"jaguarleap/soundfile.h"
+	"jaguarleap/shared/parserexception.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/fileops/parser.h"
+	<cstring>
+
+1334079919 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\soundfile.h
+	<string>
+	<vector>
+
+1334532874 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\palette.h
+
+1334533586 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\bkfile.cpp
+	"jaguarleap/bkfile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334533494 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\bkfile.h
+	<string>
+	<vector>
+	"jaguarleap/shared/animation.h"
+	"jaguarleap/shared/palette.h"
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\animation.h
+	<vector>
+	<string>
+	"jaguarleap/shared/sprite.h"
+
+1334533942 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\sprite.h
+	<cinttypes>
+	"jaguarleap/shared/palette.h"
+
+1334532874 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\palette.h
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fileops\parser.h
+	<cinttypes>
+	<string>
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fileops\writer.h
+	<cinttypes>
+	<string>
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\shared\parserexception.h
+	<string>
+
+1334405039 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\affile.cpp
+	"jaguarleap/affile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334405017 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\affile.h
+	<vector>
+	<string>
+	"jaguarleap/shared/animation.h"
+
+1334079919 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\soundfile.cpp
+	"jaguarleap/soundfile.h"
+	"jaguarleap/shared/parserexception.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/fileops/parser.h"
+	<cstring>
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\soundfile.h
+	<string>
+	<vector>
+
+1334533928 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\shared\sprite.cpp
+	"jaguarleap/shared/sprite.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334405085 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\shared\animation.cpp
+	"jaguarleap/shared/animation.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+
+1334079919 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\languagefile.cpp
+	"jaguarleap/languagefile.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/shared/parserexception.h"
+	<list>
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\languagefile.h
+	<string>
+	<vector>
+
+1334079919 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fontfile.cpp
+	"jaguarleap/fontfile.h"
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+
+1334079919 d:\projektit\one must fall remake project\libjaguarleap\include\\jaguarleap\fontfile.h
+	<string>
+
+1334079919 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fileops\writer.cpp
+	"jaguarleap/fileops/writer.h"
+	"jaguarleap/shared/parserexception.h"
+	<cstring>
+	<fstream>
+	<iostream>
+
+1334079919 source:d:\projektit\one must fall remake project\libjaguarleap\src\jaguarleap\fileops\parser.cpp
+	"jaguarleap/fileops/parser.h"
+	"jaguarleap/shared/parserexception.h"
+	<fstream>
+	<sstream>
+

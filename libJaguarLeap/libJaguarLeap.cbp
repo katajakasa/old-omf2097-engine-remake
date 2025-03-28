@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libJaguarLeap" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="lib\jaguarleap" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+					<Add option="-Wall" />
+					<Add directory="include\" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="include\jaguarleap\affile.h" />
+		<Unit filename="include\jaguarleap\bkfile.h" />
+		<Unit filename="include\jaguarleap\fileops\parser.h" />
+		<Unit filename="include\jaguarleap\fileops\writer.h" />
+		<Unit filename="include\jaguarleap\fontfile.h" />
+		<Unit filename="include\jaguarleap\languagefile.h" />
+		<Unit filename="include\jaguarleap\shared\animation.h" />
+		<Unit filename="include\jaguarleap\shared\palette.h" />
+		<Unit filename="include\jaguarleap\shared\parserexception.h" />
+		<Unit filename="include\jaguarleap\shared\sprite.h" />
+		<Unit filename="include\jaguarleap\soundfile.h" />
+		<Unit filename="src\jaguarleap\affile.cpp" />
+		<Unit filename="src\jaguarleap\bkfile.cpp" />
+		<Unit filename="src\jaguarleap\fileops\parser.cpp" />
+		<Unit filename="src\jaguarleap\fileops\writer.cpp" />
+		<Unit filename="src\jaguarleap\fontfile.cpp" />
+		<Unit filename="src\jaguarleap\languagefile.cpp" />
+		<Unit filename="src\jaguarleap\shared\animation.cpp" />
+		<Unit filename="src\jaguarleap\shared\sprite.cpp" />
+		<Unit filename="src\jaguarleap\soundfile.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot have_dot="1" />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

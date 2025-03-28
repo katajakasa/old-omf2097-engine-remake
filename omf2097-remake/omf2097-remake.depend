@@ -1,0 +1,419 @@
+# depslib dependency file v1.0
+1306808208 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\color.cpp
+	"color.h"
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\color.h
+	<inttypes.h>
+
+1319759386 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\animationplayer.cpp
+	"animationplayer.h"
+	"handlers/stringengine.h"
+	"video/texture.h"
+	"audio/music.h"
+	"audio/audiosample.h"
+	"audio/sampleloader.h"
+	"handlers/background.h"
+	"handlers/animation.h"
+	"video/glrenderer.h"
+	"tools/log.h"
+	<string>
+
+1333364125 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\animationplayer.h
+	<list>
+	<vector>
+	"handlers/stringengine.h"
+	"handlers/animationsource.h"
+	"handlers/animation.h"
+	"video/glrenderer.h"
+	"video/shader.h"
+
+1306035913 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\stringengine.h
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\animationsource.h
+
+1306037812 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\animation.h
+	<string>
+	<vector>
+	"tools/parser.h"
+	"palette.h"
+	"image.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\tools\parser.h
+	<inttypes.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\palette.h
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\image.h
+	<string>
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\glrenderer.h
+	<vector>
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\texture.h
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\audio\music.h
+	<string>
+	<dumb/dumb.h>
+	<SFML/Audio.hpp>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\audio\audiosample.h
+	<SFML/Audio.hpp>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\audio\sampleloader.h
+	<string>
+	<map>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\background.h
+	<map>
+	<vector>
+	<string>
+	<cstring>
+	"palette.h"
+	"animation.h"
+	"image.h"
+	"animationsource.h"
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\tools\log.h
+	<iostream>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\introscene.cpp
+	"introscene.h"
+	"tools/log.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\introscene.h
+	"scene.h"
+	"handlers/animationplayer.h"
+	"handlers/background.h"
+
+1306891764 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\scene.h
+	<vector>
+	<string>
+	"video/glrenderer.h"
+	"video/texture.h"
+	"handlers/stringengine.h"
+	"handlers/image.h"
+	"audio/sampleloader.h"
+	"audio/music.h"
+	<SFML/Window.hpp>
+
+1333364125 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\animationplayer.h
+	<list>
+	<vector>
+	"handlers/stringengine.h"
+	"handlers/animationsource.h"
+	"handlers/animation.h"
+	"video/glrenderer.h"
+	"video/shader.h"
+
+1324525482 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\animation.cpp
+	"animation.h"
+	"tools/log.h"
+
+1306037812 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\animation.h
+	<string>
+	<vector>
+	"tools/parser.h"
+	"palette.h"
+	"image.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\palette.h
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\image.h
+	<string>
+
+1307300265 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\main.cpp
+	<sstream>
+	<dumb/dumb.h>
+	"engine.h"
+	"tools/exception.h"
+	"tools/log.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\engine.h
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\exception.h
+	<string>
+	<list>
+	<sstream>
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\log.h
+	<iostream>
+
+1306891672 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\engine.cpp
+	"engine.h"
+	<SFML/Window.hpp>
+	"video/glrenderer.h"
+	"audio/sampleloader.h"
+	"audio/audiosample.h"
+	"audio/music.h"
+	"handlers/har.h"
+	"scenes/scene.h"
+	"scenes/menuscene.h"
+	"scenes/introscene.h"
+	"tools/exception.h"
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\glrenderer.h
+	<vector>
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\sampleloader.h
+	<string>
+	<map>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\audiosample.h
+	<SFML/Audio.hpp>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\music.h
+	<string>
+	<dumb/dumb.h>
+	<SFML/Audio.hpp>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\har.h
+	<vector>
+	<string>
+	"animation.h"
+	"harpalette.h"
+	"animationsource.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\harpalette.h
+	"palette.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\animationsource.h
+
+1333307695 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\menuscene.h
+	"scene.h"
+	"handlers/animationplayer.h"
+	<string>
+
+1320464107 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\stringengine.cpp
+	"stringengine.h"
+	"tools/log.h"
+	<sstream>
+	<cstdlib>
+
+1306035913 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\stringengine.h
+	<string>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\sampleloader.cpp
+	"sampleloader.h"
+	"tools/parser.h"
+	"audiosample.h"
+	"tools/exception.h"
+	"tools/log.h"
+	<vector>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\tools\exception.h
+	<string>
+	<list>
+	<sstream>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\palette.cpp
+	"palette.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\music.cpp
+	"music.h"
+	<fstream>
+	"tools/exception.h"
+	"tools/log.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\language.cpp
+	"language.h"
+	"tools/parser.h"
+	"tools/exception.h"
+	"tools/log.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\language.h
+	<string>
+	<vector>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\tgawriter.cpp
+	"tgawriter.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\tgawriter.h
+	<string>
+	<fstream>
+	<inttypes.h>
+	<iostream>
+
+1319905940 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\image.cpp
+	"image.h"
+	"video/tgawriter.h"
+	"video/texture.h"
+	"tools/parser.h"
+	"palette.h"
+	<cstring>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\tgawriter.h
+	<string>
+	<fstream>
+	<inttypes.h>
+	<iostream>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\audio\audiosample.cpp
+	"audiosample.h"
+	<string>
+	"tools/exception.h"
+
+1306808208 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\texture.cpp
+	"texture.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	<string>
+	<cstring>
+	"tools/exception.h"
+	"tools/log.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\texture.h
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\parser.cpp
+	"parser.h"
+	"tools/exception.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\parser.h
+	<inttypes.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\harpalette.cpp
+	"harpalette.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\shaderprogram.cpp
+	"shaderprogram.h"
+	"tools/exception.h"
+	"tools/log.h"
+	"video/glextloader.h"
+	"video/glrenderer.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\shaderprogram.h
+	"shader.h"
+	<list>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\shader.h
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\glextloader.h
+	<GL/glew.h>
+	<GL/glew.h>
+	<GL/wglew.h>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\har.cpp
+	"har.h"
+	"tools/parser.h"
+	"tools/exception.h"
+	"tools/log.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\shader.cpp
+	"shader.h"
+	"tools/exception.h"
+	"tools/log.h"
+	<fstream>
+	"video/glextloader.h"
+	"video/glrenderer.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\inireader.cpp
+	"inireader.h"
+	"tools/exception.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\inireader.h
+	<sstream>
+	<string>
+	<fstream>
+	<map>
+
+1306808208 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\font.cpp
+	"handlers/font.h"
+	"tools/parser.h"
+	"tools/exception.h"
+	"tools/log.h"
+	"video/color.h"
+	"video/texture.h"
+	<string>
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\font.h
+	<string>
+
+1306808208 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\color.h
+	<inttypes.h>
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\tools\exception.cpp
+	"exception.h"
+	<iostream>
+
+1307400397 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\glrenderer.cpp
+	"glrenderer.h"
+	"glextloader.h"
+	"tools/exception.h"
+	"tools/log.h"
+	"video/texture.h"
+	"video/shader.h"
+	"video/shaderprogram.h"
+	<SFML/Window.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	<string>
+	<algorithm>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\glextloader.h
+	<GL/glew.h>
+	<GL/glew.h>
+	<GL/wglew.h>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\shader.h
+	<string>
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\video\shaderprogram.h
+	"shader.h"
+	<list>
+
+1324525482 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\background.cpp
+	"background.h"
+	"tools/parser.h"
+	"tools/exception.h"
+	"tools/log.h"
+	"palette.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\handlers\background.h
+	<map>
+	<vector>
+	<string>
+	<cstring>
+	"palette.h"
+	"animation.h"
+	"image.h"
+	"animationsource.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\scene.cpp
+	"scene.h"
+	"handlers/background.h"
+	"handlers/har.h"
+	"handlers/stringengine.h"
+	"video/texture.h"
+	"tools/exception.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\har.h
+	<vector>
+	<string>
+	"animation.h"
+	"harpalette.h"
+	"animationsource.h"
+
+1305498935 c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\\handlers\harpalette.h
+	"palette.h"
+
+1305498935 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\video\glextloader.cpp
+	"glextloader.h"
+	"tools/log.h"
+
+1333307719 source:c:\users\tuomas virtanen\desktop\projektit\one must fall remake project\omf2097-remake\src\scenes\menuscene.cpp
+	"menuscene.h"
+	"handlers/background.h"
+	"audio/sampleloader.h"
+	"tools/log.h"
+

@@ -1,0 +1,27 @@
+About
+-----
+One Must Fall Remake Project. A very incomplete one :)
+
+License
+-------
+GPLv2 (Please read LICENSE for more detailed licensing information.)
+
+Contact
+-------
+Author: Tuomas Virtanen
+Email: katajakasa@gmail.com
+IRC: Katajakasa @ IRCNet
+
+Youtube
+-------
+http://www.youtube.com/watch?v=jeHH1WpVhxo
+
+Thanks
+------
+Tons of information about the game file formats was taken from here:
+http://wtf.hijacked.us:8080/wiki/index.php/OMF2097_File_Formats
+
+Some filtershaders are from bsnes (http://byuu.org/bsnes/) by byuu.
+
+Also thanks to Teistiz, who didn't beat me to tiny bits 
+when i bombarded him with tons of OpenGL related questions :P

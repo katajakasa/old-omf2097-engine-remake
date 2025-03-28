@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="omf2097-remake" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\omf-dbg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\" />
+				<Option object_output="obj\Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_OMFDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\omf" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="LIBS" value="C:\Libraries" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-static-libgcc" />
+			<Add directory="$(LIBS)\include" />
+			<Add directory="src\" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add library="mingw32" />
+			<Add library="sfml-audio-s" />
+			<Add library="sfml-window-s" />
+			<Add library="sfml-system-s" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="glew32s" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="OpenAL32" />
+			<Add library="sndfile" />
+			<Add library="dumb" />
+			<Add library="cairo" />
+			<Add library="freetype" />
+			<Add library="pixman-1" />
+			<Add library="z" />
+			<Add directory="$(LIBS)\lib" />
+		</Linker>
+		<Unit filename="src\audio\audiosample.cpp" />
+		<Unit filename="src\audio\audiosample.h" />
+		<Unit filename="src\audio\music.cpp" />
+		<Unit filename="src\audio\music.h" />
+		<Unit filename="src\audio\sampleloader.cpp" />
+		<Unit filename="src\audio\sampleloader.h" />
+		<Unit filename="src\engine.cpp" />
+		<Unit filename="src\engine.h" />
+		<Unit filename="src\handlers\animation.cpp" />
+		<Unit filename="src\handlers\animation.h" />
+		<Unit filename="src\handlers\animationplayer.cpp" />
+		<Unit filename="src\handlers\animationplayer.h" />
+		<Unit filename="src\handlers\animationsource.h" />
+		<Unit filename="src\handlers\background.cpp" />
+		<Unit filename="src\handlers\background.h" />
+		<Unit filename="src\handlers\font.cpp" />
+		<Unit filename="src\handlers\font.h" />
+		<Unit filename="src\handlers\har.cpp" />
+		<Unit filename="src\handlers\har.h" />
+		<Unit filename="src\handlers\harpalette.cpp" />
+		<Unit filename="src\handlers\harpalette.h" />
+		<Unit filename="src\handlers\image.cpp" />
+		<Unit filename="src\handlers\image.h" />
+		<Unit filename="src\handlers\language.cpp" />
+		<Unit filename="src\handlers\language.h" />
+		<Unit filename="src\handlers\palette.cpp" />
+		<Unit filename="src\handlers\palette.h" />
+		<Unit filename="src\handlers\stringengine.cpp" />
+		<Unit filename="src\handlers\stringengine.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\scenes\introscene.cpp" />
+		<Unit filename="src\scenes\introscene.h" />
+		<Unit filename="src\scenes\menuscene.cpp" />
+		<Unit filename="src\scenes\menuscene.h" />
+		<Unit filename="src\scenes\scene.cpp" />
+		<Unit filename="src\scenes\scene.h" />
+		<Unit filename="src\tools\exception.cpp" />
+		<Unit filename="src\tools\exception.h" />
+		<Unit filename="src\tools\inireader.cpp" />
+		<Unit filename="src\tools\inireader.h" />
+		<Unit filename="src\tools\log.h" />
+		<Unit filename="src\tools\parser.cpp" />
+		<Unit filename="src\tools\parser.h" />
+		<Unit filename="src\video\color.cpp" />
+		<Unit filename="src\video\color.h" />
+		<Unit filename="src\video\glextloader.cpp" />
+		<Unit filename="src\video\glextloader.h" />
+		<Unit filename="src\video\glrenderer.cpp" />
+		<Unit filename="src\video\glrenderer.h" />
+		<Unit filename="src\video\shader.cpp" />
+		<Unit filename="src\video\shader.h" />
+		<Unit filename="src\video\shaderprogram.cpp" />
+		<Unit filename="src\video\shaderprogram.h" />
+		<Unit filename="src\video\texture.cpp" />
+		<Unit filename="src\video\texture.h" />
+		<Unit filename="src\video\tgawriter.cpp" />
+		<Unit filename="src\video\tgawriter.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

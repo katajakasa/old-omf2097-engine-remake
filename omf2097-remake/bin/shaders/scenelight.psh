@@ -1,0 +1,31 @@
+uniform sampler2D texture;
+uniform int bpb;
+uniform int bpp;
+uniform int bps;
+uniform int bpd;
+uniform int bz;
+uniform nnn palette;
+uniform float scale;
+
+void main() {
+	vec3 c = texture2D(texture, gl_TexCoord[0].xy).xyz; 
+	float bp = bpb + (bpp - bpb) * scale;
+	vec3 t;
+	vec3 palref = palette[bpd];
+	for(int i = bps; i < bps+bpn; i++) {
+		vec3 r = palette[i];
+		if(bz) {
+			float m = max(r.x, max(r.y, r.z));
+			t.x = r.x + m/64 * bp/64 * (palref.x - c.x);
+			t.y = r.y + m/64 * bp/64 * (palref.y - c.y);
+			t.z = r.z + m/64 * bp/64 * (palref.z - c.z);
+		} else {
+			t.x = palref.x * bp/64;
+			t.y = r.y + (1 - m/64) + palref.y * bp/64;
+			t.z = r.z + (1 - m/64) + palref.z * bp/64;
+		}
+	}
+	gl_FragColor.x = max(0, min(63, t.x));
+	gl_FragColor.y = max(0, min(63, t.y));
+	gl_FragColor.z = max(0, min(63, t.z));
+}
